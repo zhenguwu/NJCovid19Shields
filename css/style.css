@@ -29,6 +29,9 @@
 #shiftdown {
 	margin-bottom: 60px;
 }
+#shiftup {
+	margin-top: -150px;
+}
 .btn-green {
 	background-color:green!important;
 }
@@ -385,7 +388,10 @@ Hero section
 	background: #fff!important;
 }
 .hs-item-blue {
-	background: #054761!important;
+	background: #08192D!important;
+}
+.hs-text-blue {
+	color: #08192D!important;
 }
 .hs-text-orange {
 	color: #FF962C!important;
@@ -415,6 +421,9 @@ Hero section
 }
 .hs-text-noOverlap {
 	line-height: 1.2!important;
+}
+.hs-text-noOverlap2 {
+	line-height: 1.5!important;
 }
 .smaller-text {
 	font-size: 13px;
@@ -571,7 +580,7 @@ Concept section
 }
 
 .concept-item {
-	text-align: center;
+	text-align: left;
 	padding-top: 35px;
 }
 
