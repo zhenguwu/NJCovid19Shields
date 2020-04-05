@@ -1534,6 +1534,8 @@ Responsive
 		display: block;
 		background: transparent;
 		margin-top: -60px;
+		text-align:center;
+		margin-left: 50vw;
 	}
 	.slicknav_nav {
 		background: #1c294a;
@@ -1670,6 +1672,8 @@ Responsive
 		display: block;
 		background: transparent;
 		margin-top: -60px;
+		text-align: center;
+		margin-left: 50vw;
 	}
 	.slicknav_nav {
 		background: #1c294a;
@@ -1887,5 +1891,11 @@ Responsive
 	.search-form button {
 		position: relative;
 		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.site-logo {
+		width: 200px;
 	}
 }
