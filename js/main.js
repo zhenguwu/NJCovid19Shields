@@ -27,6 +27,11 @@ $(window).on('load', function() {
 			scrollTop: $("#printsettings").offset().top
 		}, 400)
 	})
+	$("#scrolldown4").click(function() {
+		$('html, body').animate({
+			scrollTop: $("#aboutus").offset().top
+		}, 400)
+	})
 	$(".main-menu").slicknav({
         appendTo: '.header-section',
 		allowParentLinks: true,
@@ -45,14 +50,14 @@ $(window).on('load', function() {
 
 	
 	$('.hero-slider').owlCarousel({
-		loop: true,
+		loop: false,
 		nav: false,
 		dots: true,
 		mouseDrag: false,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
 		items: 1,
-		autoplay: true
+		autoplay: false
 	});
 
 

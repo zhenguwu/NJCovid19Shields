@@ -19,13 +19,12 @@
 	height: 10px;
 	width: auto;
 }
-#bulkshield {
-	margin-bottom: 20px;
-}
+
 #scrolldown2 {
 	background-color:green;
 	margin-left: 10px;
 }
+
 #shiftdown {
 	margin-bottom: 60px;
 }
@@ -38,6 +37,17 @@
 
 #larger-text {
 	font-size: 20px;
+}
+#picmobile {
+	display: none;
+	text-align: center;
+	width: 92%;
+}
+#picmobile img {
+	display: inline-block;
+	height: 250px;
+	width: auto;
+	margin-bottom: -50px;
 }
 .hs-list-title {
 	font-size: 22px!important;
@@ -1530,6 +1540,9 @@ Responsive
 	.hr-img {
 		display: none;
 	}
+	#picmobile {
+		display: block;
+	}
 	.slicknav_menu {
 		display: block;
 		background: transparent;
@@ -1660,6 +1673,10 @@ Responsive
 	.search-form {
 		margin-top: 40px;
 	}
+	.hs-extend {
+		height: 100%!important;
+		padding-bottom: 0;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -1667,6 +1684,13 @@ Responsive
 @media only screen and (max-width: 767px) {
 	.hr-img {
 		display: none;
+	}
+	#picmobile {
+		display: block;
+	}
+	.hs-extend {
+		height: 100%!important;
+		padding-bottom: 0;
 	}
 	.slicknav_menu {
 		display: block;
@@ -1824,6 +1848,15 @@ Responsive
 	.search-form {
 		margin-top: 40px;
 	}
+	#shiftdown {
+		margin-bottom: 0px!important;
+	}
+	#shiftup {
+		margin-top: -10px!important;
+	}
+	#bulkshield {
+	margin-bottom: 50px;
+}
 }
 
 /* Small Mobile :320px. */
@@ -1832,7 +1865,10 @@ Responsive
 	.section-title h2,
 	.hs-item h2,
 	.sub-text h2 {
-		font-size: 36px;
+		font-size: 50px;
+	}
+	#forhospitals {
+		font-size: 35px;
 	}
 	.wave-player-info h2 {
 		font-size: 24px;
@@ -1892,10 +1928,27 @@ Responsive
 		position: relative;
 		margin-top: 20px;
 	}
+	#scrolldown2 {
+		margin-left: 0px;
+	}
+	#centerthis {
+		text-align: center;
+		width: 80%;
+	}
+	#scrolldown1, #scrolldown2, #scrolldown4 {
+		display: inline-block;
+	}
+
 }
 
 @media only screen and (max-width: 415px) {
 	.site-logo {
 		width: 200px;
+	}
+}
+@media only screen and (min-width: 480px) {
+	#centerthis p {
+		margin-left: 165px;
+		margin-top: 20px;
 	}
 }
