@@ -27,10 +27,10 @@ $(window).on('load', function() {
 			scrollTop: $("#printsettings").offset().top
 		}, 400)
 	})
-	$("#scrolldown4").click(function() {
+	$("#scrollabout").click(function() {
 		$('html, body').animate({
 			scrollTop: $("#aboutus").offset().top
-		}, 400)
+		}, 800)
 	})
 	$(".main-menu").slicknav({
         appendTo: '.header-section',
